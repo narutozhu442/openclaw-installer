@@ -1,0 +1,61 @@
+{
+  "providers": {
+    "cucloud": {
+      "baseUrl": "https://aigw-gzgy2.cucloud.cn:8443/v1",
+      "apiKey": "YOUR_API_KEY_HERE",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "Qwen3.5-397B-A17B",
+          "name": "Qwen 3.5 397B",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3",
+          "name": "DeepSeek V3",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 64000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "DeepSeek-V3.1",
+          "name": "DeepSeek V3.1",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 64000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "Qwen3-235B-A22B",
+          "name": "Qwen3 235B",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "glm-5",
+          "name": "GLM-5",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        }
+      ]
+    }
+  }
+}
