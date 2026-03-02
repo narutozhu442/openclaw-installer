@@ -1,0 +1,31 @@
+{
+  "providers": {
+    "siliconflow": {
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "sk-YOUR_SILICONFLOW_KEY_HERE",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "deepseek-ai/DeepSeek-V3",
+          "name": "DeepSeek V3",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 64000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "Qwen/Qwen2.5-72B-Instruct",
+          "name": "Qwen2.5 72B",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 32000,
+          "maxTokens": 4096,
+          "api": "openai-completions"
+        }
+      ]
+    }
+  }
+}
