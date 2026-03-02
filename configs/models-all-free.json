@@ -1,0 +1,132 @@
+{
+  "providers": {
+    "cucloud": {
+      "baseUrl": "https://aigw-gzgy2.cucloud.cn:8443/v1",
+      "apiKey": "YOUR_CUCLOUD_API_KEY",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "Qwen3.5-397B-A17B",
+          "name": "Qwen 3.5 397B",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3",
+          "name": "DeepSeek V3",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 64000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "DeepSeek-V3.1",
+          "name": "DeepSeek V3.1",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 64000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "Qwen3-235B-A22B",
+          "name": "Qwen3 235B",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "glm-5",
+          "name": "GLM-5",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 128000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "coze": {
+      "baseUrl": "https://integration.coze.cn/api/v3",
+      "apiKey": "YOUR_COZE_API_KEY",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "kimi-k2-5-260127",
+          "name": "Kimi K2.5",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 256000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "siliconflow": {
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "YOUR_SILICONFLOW_API_KEY",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "deepseek-ai/DeepSeek-V3",
+          "name": "DeepSeek V3 (硅基)",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 64000,
+          "maxTokens": 8192,
+          "api": "openai-completions"
+        },
+        {
+          "id": "Qwen/Qwen2.5-72B-Instruct",
+          "name": "Qwen2.5 72B",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 32000,
+          "maxTokens": 4096,
+          "api": "openai-completions"
+        }
+      ]
+    },
+    "github": {
+      "baseUrl": "https://models.inference.ai.azure.com",
+      "apiKey": "YOUR_GITHUB_TOKEN",
+      "api": "openai-completions",
+      "models": [
+        {
+          "id": "gpt-4o-mini",
+          "name": "GPT-4o Mini",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 128000,
+          "maxTokens": 4096,
+          "api": "openai-completions"
+        },
+        {
+          "id": "deepseek-chat",
+          "name": "DeepSeek Chat",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "contextWindow": 64000,
+          "maxTokens": 4096,
+          "api": "openai-completions"
+        }
+      ]
+    }
+  }
+}
